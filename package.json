@@ -1,7 +1,7 @@
 {
-    "name": "@geometryzen/my-lib",
-    "version": "0.9.4",
-    "description": "My Library",
+    "name": "@geometryzen/jsplumb",
+    "version": "0.0.1",
+    "description": "jsplumb bundled with System format and type definitions",
     "exports": {
         ".": {
             "types": "./dist/index.d.ts",
@@ -20,8 +20,7 @@
         "dist/system/index.min.js.map"
     ],
     "keywords": [
-        "my",
-        "lib"
+        "jsplumb"
     ],
     "publishConfig": {
         "access": "public"
@@ -43,7 +42,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/geometryzen/my-lib.git"
+        "url": "git+https://github.com/geometryzen/esm-bundle-jsplumb.git"
     },
     "author": {
         "name": "David Geo Holmes",
@@ -51,9 +50,9 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/geometryzen/my-lib/issues"
+        "url": "https://github.com/geometryzen/esm-bundle-jsplumb/issues"
     },
-    "homepage": "https://github.com/geometryzen/my-lib#readme",
+    "homepage": "https://github.com/geometryzen/esm-bundle-jsplumb#readme",
     "devDependencies": {
         "@rollup/plugin-commonjs": "^25.0.2",
         "@rollup/plugin-node-resolve": "^15.1.0",
